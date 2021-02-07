@@ -41,6 +41,9 @@ submitBtn.addEventListener('click', () => {
 
              const allMealContainerNone = document.getElementById('not-found',);
              allMealContainerNone.innerHTML = '';
+             const meatDetailDiv = document.getElementById('meal-detail');
+            meatDetailDiv.innerHTML = '';
+
 
             
         });
