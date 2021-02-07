@@ -26,6 +26,7 @@ submitBtn.addEventListener('click', () => {
     
     const foodItemData = mealName =>{
         const allMealContainer = document.getElementById('item');
+        allMealContainer.innerHTML ='';
         mealName.forEach(meals => {
             console.log(meals);
             const mealDiv = document.createElement('div');
